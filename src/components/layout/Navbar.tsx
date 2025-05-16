@@ -1,7 +1,6 @@
-
-import React, { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Menu, X } from 'lucide-react';
+import React, { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +15,11 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <a href="/" className="flex items-center gap-2">
             <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold">E</span>
+              <img
+                src="/esusu-chain-logo.png"
+                alt=""
+                className="w-full h-full"
+              />
             </div>
             <span className="font-bold text-xl">EsusuChain</span>
           </a>
@@ -24,17 +27,26 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
-          <a href="#features" className="text-foreground/80 hover:text-foreground transition-colors">
+          <a
+            href="#features"
+            className="text-foreground/80 hover:text-foreground transition-colors"
+          >
             Features
           </a>
-          <a href="#how-it-works" className="text-foreground/80 hover:text-foreground transition-colors">
+          <a
+            href="#how-it-works"
+            className="text-foreground/80 hover:text-foreground transition-colors"
+          >
             How It Works
           </a>
-          <a href="#faq" className="text-foreground/80 hover:text-foreground transition-colors">
+          <a
+            href="#faq"
+            className="text-foreground/80 hover:text-foreground transition-colors"
+          >
             FAQ
           </a>
           <Button asChild>
-            <a href="#download">Download App</a>
+            <a href="#download">Access App</a>
           </Button>
         </nav>
 
@@ -73,7 +85,7 @@ const Navbar = () => {
             </a>
             <Button asChild className="w-full">
               <a href="#download" onClick={toggleMenu}>
-                Download App
+                Access App
               </a>
             </Button>
           </div>
