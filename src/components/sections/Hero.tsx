@@ -60,7 +60,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-esusu-100 to-white dark:from-esusu-900 dark:to-background flex items-center justify-center">
               <div className="relative w-[220px] h-[440px] md:w-[270px] md:h-[540px] bg-white dark:bg-gray-900 rounded-[36px] border-8 border-gray-800 overflow-hidden shadow-2xl">
                 <div className="absolute top-0 left-0 right-0 h-6 bg-gray-800 rounded-t-[28px]"></div>
-                <div className="h-full w-full p-2 pt-6 bg-esusu-100 dark:bg-esusu-950/30">
+                <div className="h-full w-full pt-6 bg-esusu-100 dark:bg-esusu-950/30">
                   {/* App mockup content */}
                   <img
                     src="/assets/esusu-chain-dashboard.webp"
