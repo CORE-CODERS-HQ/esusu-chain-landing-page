@@ -20,7 +20,11 @@ const Download = () => {
               className="bg-black hover:bg-black/90 text-white h-16 px-6"
               asChild
             >
-              <a href="#" className="inline-flex items-center">
+              <a
+                href="/esusu-chain.apk"
+                download
+                className="inline-flex items-center"
+              >
                 <div className="mr-3">
                   <svg
                     viewBox="0 0 24 24"
@@ -44,7 +48,11 @@ const Download = () => {
               className="bg-black hover:bg-black/90 text-white h-16 px-6"
               asChild
             >
-              <a href="#" className="inline-flex items-center">
+              <a
+                href="/esusu-chain.apk"
+                download
+                className="inline-flex items-center"
+              >
                 <div className="mr-3">
                   <svg
                     viewBox="0 0 24 24"

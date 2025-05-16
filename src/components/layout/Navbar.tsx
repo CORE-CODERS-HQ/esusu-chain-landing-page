@@ -84,8 +84,8 @@ const Navbar = () => {
               FAQ
             </a>
             <Button asChild className="w-full">
-              <a href="#download" onClick={toggleMenu}>
-                Access App
+              <a href="/esusu-chain.apk" download onClick={toggleMenu}>
+                Downlaod App
               </a>
             </Button>
           </div>
