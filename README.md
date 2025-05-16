@@ -9,3 +9,4 @@ This project is built with:
 - Tailwind CSS
 
 # esusu-chain-landing-page
+# esusu-chain-landing-page
